@@ -14,4 +14,6 @@ fizzbuzz.on('calcul', function(number){
     else{
         console.log(number + " : n'est pas un multiple de 3 et/ou 5");
     }
-})
+});
+
+module.exports = fizzbuzz;
